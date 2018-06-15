@@ -3,5 +3,4 @@
 
 Created using HTML, CSS and JavaScript.
 
-Began: June 14, 2018;
-Finished: TBD
+June 14, 2018 - TBD
