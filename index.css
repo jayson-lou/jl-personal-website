@@ -1,5 +1,6 @@
 .navbar {
   font-family: 'Avenir';
+  font-size: 20px;
 }
 
 .bg-main {
@@ -8,11 +9,15 @@
   font-family: 'Avenir Next';
 }
 
+.bg-second {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: 'Avenir Next';
+}
+
 .masthead {
   display: table;
-  color: #FFFFFF;
   background: url("img/intro-bg.jpg") no-repeat bottom center scroll;
-  background-color: #000000;
   text-align: center;
   width: 100%;
   min-height: 100vh;
