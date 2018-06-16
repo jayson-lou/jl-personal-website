@@ -3,5 +3,34 @@
 }
 
 .bg-main {
-  background-color: #E2564E;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Avenir Next';
+}
+
+.masthead {
+  display: table;
+  color: #FFFFFF;
+  background: url("img/intro-bg.jpg") no-repeat bottom center scroll;
+  background-color: #000000;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 200px 0;
+  background-size: cover;
+}
+
+.masthead h1 {
+  font-size: 64px;
+}
+
+.masthead .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media (max-width: 576px) {
+  .masthead h1 {
+    font-size: 56px;
+  }
 }
