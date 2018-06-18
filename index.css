@@ -43,3 +43,15 @@
 .descriptor {
   font-size: 20px;
 }
+
+.experience-logo {
+  max-height: 100px;
+  max-width: 300px;
+}
+
+@media (max-width: 576px) {
+  .experience-logo {
+    max-height: 80px;
+    max-width: 200px;
+  }
+}
