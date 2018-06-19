@@ -54,3 +54,17 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.1em solid #FFFFFF }";
   document.body.appendChild(css);
 };
+
+$(document).ready(function() {
+  $(".navbar a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function() {
+        window.location.hash = hash;
+      });
+    }
+  });
+})

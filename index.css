@@ -1,6 +1,25 @@
 .navbar {
   font-family: 'Avenir';
   font-size: 20px;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #FFFFFF !important;
+}
+
+.navbar-nav li a:hover {
+  color: #000000 !important;
+  background-color: #FFFFFF;
+}
+
+.container-fluid {
+  padding-top: 80px;
+}
+@media (max-width: 576px) {
+  .container-fluid {
+    padding-top: 65px;
+  }
 }
 
 .bg-main {
@@ -20,7 +39,7 @@
   background: url("img/intro-bg.jpg") no-repeat bottom center scroll;
   text-align: center;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   padding: 200px 0;
   background-size: cover;
 }
@@ -37,6 +56,16 @@
 @media (max-width: 576px) {
   .masthead h1 {
     font-size: 56px;
+  }
+}
+
+.profile-pic {
+  width: 30%;
+}
+
+@media (max-width: 576px) {
+  .profile-pic {
+    width: 60%;
   }
 }
 

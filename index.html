@@ -11,12 +11,12 @@
     <!-- FA CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-    <title>Jayson's Website </title>
+    <title>Jayson Lou</title>
   </head>
 
   <body>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="index.js"></script>
@@ -33,11 +33,11 @@
       </div>
     </header>
 
-    <nav class="navbar navbar-right navbar-expand-sm navbar-fixed-top navbar-dark bg-main">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false">
+    <nav class="navbar navbar-right navbar-expand-sm sticky-top navbar-dark bg-main py-0">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarToggle">
+      <div class="collapse navbar-collapse" id="navbar">
         <a class="navbar-brand" href="#"></a>
         <ul class="navbar-nav navbar-right ml-auto mt-2 mt-lg-0">
           <li class="nav-item px-1">
@@ -59,24 +59,24 @@
       </div>
     </nav>
 
-    <div id="about" class="container-fluid text-center bg-main py-5">
+    <div id="about" class="container-fluid text-center bg-main pb-5">
       <h1 class="py-3 text-uppercase"><strong>About Me</strong></h1>
-      <img src="img/profile-pic.jpg" alt="profile-pic" class="rounded-circle py-2" width="30%">
+      <img src="img/profile-pic.jpg" alt="profile-pic" class="profile-pic rounded-circle py-2">
       <p class="col-12 col-sm-7 mt-4 ml-auto mr-auto">I'm Jayson, an aspiring software developer. I am currently enrolled in the double degree program studying Business Administration at Wilfrid Laurier University and Computer Science at University of Waterloo.</p>
       <div class="container align-middle py-4">
-        <button type="button" class="btn btn-success col-6 col-sm-3 mx-2 mb-2">
-          <i class="fas fa-envelope fa-lg mr-2" href="mailto:jayson.lou@gmail.com"></i>Email
-        </button>
-        <button type="button" class="btn btn-primary col-6 col-sm-3 mx-2 mb-2">
-          <i class="fab fa-linkedin fa-lg mr-2" href="https://www.linkedin.com/in/jaysonlou/"></i>LinkedIn
-        </button>
-        <button type="button" class="btn btn-warning col-6 col-sm-3 mx-2 mb-2">
-          <i class="fab fa-github fa-lg mr-2" href="https://github.com/jayson-lou"></i>GitHub
-        </button>
+        <a class="btn btn-success col-6 col-sm-3 mx-2 mb-2" href="mailto:jayson.lou@gmail.com" role="button">
+          <i class="fas fa-envelope fa-lg mr-2"></i>Email
+        </a>
+        <a class="btn btn-primary col-6 col-sm-3 mx-2 mb-2" href="https://www.linkedin.com/in/jaysonlou/" role="button">
+          <i class="fab fa-linkedin fa-lg mr-2"></i>LinkedIn
+        </a>
+        <a class="btn btn-warning col-6 col-sm-3 mx-2 mb-2" href="https://github.com/jayson-lou" role="button">
+          <i class="fab fa-github fa-lg mr-2"></i>GitHub
+        </a>
       </div>
     </div>
 
-    <div id="skills" class="container-fluid text-center bg-second py-5">
+    <div id="skills" class="container-fluid text-center bg-second pb-5">
       <h1 class="py-3 text-uppercase"><strong>Skills</strong></h1>
       <p class="col-12 col-sm-7 mt-4 ml-auto mr-auto">As a second year computer science student, I'm always trying to pick up new languages and technologies. Here are some that I've mastered already!</p>
       <div class="row pt-5 px-3">
@@ -117,12 +117,12 @@
       </div>
     </div>
 
-    <div id="projects" class="container-fluid text-center bg-main py-5">
+    <div id="projects" class="container-fluid text-center bg-main pb-5">
       <h1 class="py-3 text-uppercase"><strong>Projects</strong></h1>
       <p>Coming soon!</p>
     </div>
 
-    <div id="experience" class="container-fluid bg-second py-4 py-sm-5">
+    <div id="experience" class="container-fluid bg-second pb-5">
       <h1 class="pt-3 pb-5 text-center text-uppercase"><strong>Experience</strong></h1>
       <div class="jumbotron jumbotron-fluid mx-1 mx-sm-5 py-5">
         <div class="mx-4 mx-sm-5">
@@ -150,7 +150,7 @@
       </div>
     </div>
 
-    <div id="contact" class="container-fluid text-center bg-main py-5">
+    <div id="contact" class="container-fluid text-center bg-main pb-5">
       <h1 class="py-3 text-uppercase"><strong>Contact Me</strong></h1>
       <p>Coming soon!</p>
     </div>
