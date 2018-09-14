@@ -1,7 +1,13 @@
+html {
+  font-size: 18px;
+}
+
+/* NAVBAR */
+
 .navbar {
   font-family: 'Avenir';
   font-size: 20px;
-  border-bottom: 2px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
 }
 
 .navbar li a, .navbar .navbar-brand {
@@ -12,6 +18,9 @@
   color: #000000 !important;
   background-color: #FFFFFF;
 }
+
+
+/* CONTAINER */
 
 .container-fluid {
   padding-top: 80px;
@@ -48,15 +57,15 @@
   font-size: 64px;
 }
 
-.masthead .intro-body {
-  display: table-cell;
-  vertical-align: middle;
-}
-
 @media (max-width: 576px) {
   .masthead h1 {
     font-size: 56px;
   }
+}
+
+.masthead .intro-body {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .profile-pic {
@@ -83,4 +92,9 @@
     max-height: 80px;
     max-width: 200px;
   }
+}
+
+.jumbotron-custom {
+  background-color: #eff2f9 !important;
+  color: #000000;
 }
