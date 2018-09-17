@@ -7,7 +7,7 @@ html {
 .navbar {
   font-family: 'Avenir';
   font-size: 20px;
-  border-bottom: 1px solid #FFFFFF;
+  box-shadow: 0 4px 2px 0px #283655;
 }
 
 .navbar li a, .navbar .navbar-brand {
@@ -32,13 +32,13 @@ html {
 }
 
 .bg-main {
-  background-color: #000000;
+  background-color: #283655;
   color: #FFFFFF;
   font-family: 'Avenir Next';
 }
 
 .bg-second {
-  background-color: #FFFFFF;
+  background-color: #D0E1F9;
   color: #000000;
   font-family: 'Avenir Next';
 }
@@ -78,13 +78,9 @@ html {
   }
 }
 
-.descriptor {
-  font-size: 20px;
-}
-
 .experience-logo {
   max-height: 100px;
-  max-width: 300px;
+  max-width: 20%;
 }
 
 @media (max-width: 576px) {
@@ -94,7 +90,23 @@ html {
   }
 }
 
-.jumbotron-custom {
-  background-color: #eff2f9 !important;
+.jumbotron-main {
+  background-color: #FCFDFE !important;
   color: #000000;
+}
+
+.jumbotron-second {
+  background-color: #FCFDFE !important;
+  color: #000000;
+}
+
+.screenshot {
+  width: 30%;
+  height: 20%;
+  transition: transform .2s;
+  border: 1px solid black;
+}
+
+.screenshot:hover {
+  transform: scale(1.5);
 }
